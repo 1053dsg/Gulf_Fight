@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <ModType>
+        <Value>Interface</Value>
+    </ModType>
+    <Dependencies>
+        <Value>bnet:虫群之心剧情 (战役)/0.0/999,file:Campaigns/SwarmStory.SC2Campaign</Value>
+        <Value>bnet:GAx3/2.5/9829</Value>
+    </Dependencies>
+</DocInfo>

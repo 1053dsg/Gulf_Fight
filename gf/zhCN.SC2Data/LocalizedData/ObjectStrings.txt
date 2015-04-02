@@ -1,0 +1,3 @@
+Actor/Name/barrack1=barrack 1
+Actor/Name/marine1=marine 1
+Actor/Name/worker1=worker 1

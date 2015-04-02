@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TriggerData>
+    <Root>
+        <Item Type="Category" Id="E55075EE"/>
+        <Item Type="Trigger" Id="8793FDF7"/>
+        <Item Type="Trigger" Id="7DB22D43"/>
+        <Item Type="Trigger" Id="2E3662E9"/>
+        <Item Type="Category" Id="BCBBCAB4"/>
+        <Item Type="Category" Id="003D4755"/>
+        <Item Type="Category" Id="9030729A"/>
+        <Item Type="Category" Id="DD6D9A6A"/>
+        <Item Type="Category" Id="169ECCF7"/>
+        <Item Type="Category" Id="DE481AAA"/>
+    </Root>
+    <Element Type="Category" Id="003D4755">
+    </Element>
+    <Element Type="Category" Id="169ECCF7">
+    </Element>
+    <Element Type="Category" Id="9030729A">
+    </Element>
+    <Element Type="Category" Id="BCBBCAB4">
+    </Element>
+    <Element Type="Category" Id="DD6D9A6A">
+        <Item Type="Variable" Id="66563436"/>
+        <Item Type="Variable" Id="F64C5268"/>
+        <Item Type="Variable" Id="51AAAAB1"/>
+        <Item Type="Variable" Id="F1D49F09"/>
+        <Item Type="Variable" Id="46E99007"/>
+        <Item Type="Variable" Id="4046FF13"/>
+        <Item Type="Variable" Id="4A47B2E6"/>
+        <Item Type="Variable" Id="887B1170"/>
+        <Item Type="Variable" Id="694AE265"/>
+        <Item Type="Variable" Id="09907B56"/>
+        <Item Type="Variable" Id="DA49F05D"/>
+        <Item Type="Variable" Id="0823A0AF"/>
+        <Item Type="Variable" Id="1A7471E5"/>
+        <Item Type="Variable" Id="1D2DE08B"/>
+        <Item Type="Variable" Id="82F743C8"/>
+        <Item Type="Variable" Id="A919870B"/>
+        <Item Type="Variable" Id="B87BBA4C"/>
+        <Item Type="Variable" Id="6175ED40"/>
+        <Item Type="Variable" Id="A3A43A29"/>
+        <Item Type="Variable" Id="1DB70DAD"/>
+    </Element>
+    <Element Type="Category" Id="DE481AAA">
+    </Element>
+    <Element Type="Category" Id="E55075EE">
+    </Element>
+    <Element Type="Trigger" Id="2E3662E9">
+    </Element>
+    <Element Type="Trigger" Id="7DB22D43">
+    </Element>
+    <Element Type="Trigger" Id="8793FDF7">
+        <Event Type="FunctionCall" Id="10438A9F"/>
+        <Action Type="FunctionCall" Id="A69FBFAF"/>
+        <Action Type="FunctionCall" Id="573F5024"/>
+        <Action Type="FunctionCall" Id="6F8F60AC"/>
+        <Action Type="FunctionCall" Id="9DE583ED"/>
+    </Element>
+    <Element Type="FunctionCall" Id="10438A9F">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
+    </Element>
+    <Element Type="FunctionCall" Id="24E91AC7">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="FunctionCall" Id="31185C35">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="FunctionCall" Id="573F5024">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000145"/>
+    </Element>
+    <Element Type="FunctionCall" Id="6F8F60AC">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000150"/>
+    </Element>
+    <Element Type="FunctionCall" Id="99DB4ABB">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="FunctionCall" Id="9DE583ED">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000148"/>
+    </Element>
+    <Element Type="FunctionCall" Id="9FA488F4">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="FunctionCall" Id="A1B9567C">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="FunctionCall" Id="A69FBFAF">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000143"/>
+    </Element>
+    <Element Type="FunctionCall" Id="BD9FE57F">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000104"/>
+    </Element>
+    <Element Type="Param" Id="03401B70">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="078B6D1C">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="35E5CF50">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="72ED2B00">
+        <Preset Type="PresetValue" Library="Ntve" Id="D6EA4D09"/>
+    </Element>
+    <Element Type="Param" Id="8254828C">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="8BF40865">
+        <FunctionCall Type="FunctionCall" Id="9FA488F4"/>
+    </Element>
+    <Element Type="Param" Id="8E8644B0">
+        <FunctionCall Type="FunctionCall" Id="BD9FE57F"/>
+    </Element>
+    <Element Type="Param" Id="9C1FC109">
+        <FunctionCall Type="FunctionCall" Id="24E91AC7"/>
+    </Element>
+    <Element Type="Param" Id="9EA80E54">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="A70DAE36">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="A73C1D77">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="AE6B9CE4">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="B6DD8623">
+        <FunctionCall Type="FunctionCall" Id="31185C35"/>
+    </Element>
+    <Element Type="Param" Id="D78E245C">
+        <FunctionCall Type="FunctionCall" Id="99DB4ABB"/>
+    </Element>
+    <Element Type="Param" Id="DF26DAB6">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="DF993657">
+        <FunctionCall Type="FunctionCall" Id="A1B9567C"/>
+    </Element>
+    <Element Type="Param" Id="E96FF52E">
+        <Preset Type="PresetValue" Library="Ntve" Id="D6EA4D09"/>
+    </Element>
+    <Element Type="Param" Id="EC4EA8A1">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="EEA82D92">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="F4F67FE9">
+        <Value>0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Variable" Id="0823A0AF">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="35E5CF50"/>
+    </Element>
+    <Element Type="Variable" Id="09907B56">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="9EA80E54"/>
+    </Element>
+    <Element Type="Variable" Id="1A7471E5">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="A70DAE36"/>
+    </Element>
+    <Element Type="Variable" Id="1D2DE08B">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="A73C1D77"/>
+    </Element>
+    <Element Type="Variable" Id="1DB70DAD">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="DF26DAB6"/>
+    </Element>
+    <Element Type="Variable" Id="4046FF13">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="8E8644B0"/>
+    </Element>
+    <Element Type="Variable" Id="46E99007">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="9C1FC109"/>
+    </Element>
+    <Element Type="Variable" Id="4A47B2E6">
+        <VariableType>
+            <Type Value="unit"/>
+        </VariableType>
+        <Value Type="Param" Id="72ED2B00"/>
+    </Element>
+    <Element Type="Variable" Id="51AAAAB1">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="DF993657"/>
+    </Element>
+    <Element Type="Variable" Id="6175ED40">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="F4F67FE9"/>
+    </Element>
+    <Element Type="Variable" Id="66563436">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="8BF40865"/>
+    </Element>
+    <Element Type="Variable" Id="694AE265">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="8254828C"/>
+    </Element>
+    <Element Type="Variable" Id="82F743C8">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="03401B70"/>
+    </Element>
+    <Element Type="Variable" Id="887B1170">
+        <VariableType>
+            <Type Value="unit"/>
+        </VariableType>
+        <Value Type="Param" Id="E96FF52E"/>
+    </Element>
+    <Element Type="Variable" Id="A3A43A29">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="078B6D1C"/>
+    </Element>
+    <Element Type="Variable" Id="A919870B">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="EC4EA8A1"/>
+    </Element>
+    <Element Type="Variable" Id="B87BBA4C">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="EEA82D92"/>
+    </Element>
+    <Element Type="Variable" Id="DA49F05D">
+        <VariableType>
+            <Type Value="fixed"/>
+        </VariableType>
+        <Value Type="Param" Id="AE6B9CE4"/>
+    </Element>
+    <Element Type="Variable" Id="F1D49F09">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="D78E245C"/>
+    </Element>
+    <Element Type="Variable" Id="F64C5268">
+        <VariableType>
+            <Type Value="unitgroup"/>
+        </VariableType>
+        <Value Type="Param" Id="B6DD8623"/>
+    </Element>
+</TriggerData>

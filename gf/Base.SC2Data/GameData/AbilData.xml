@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAbilBuild id="build1">
+        <OrderArray index="0" Color="255,0,255,0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3" LineTexture="Assets\Textures\WayPointLine.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <FlagArray index="Cancelable" value="0"/>
+        <FlagArray index="PeonDisableCollision" value="1"/>
+        <InfoArray index="Build1" Unit="CommandCenter" Time="100">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="CommandCenter" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="SupplyDepot" Time="30">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="SupplyDepot" State="Suppressed"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="Refinery" Time="30">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Refinery" State="Suppressed"/>
+            <ValidatorArray value="HasVespene"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="barrakc1" Time="1">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Marine" State="Suppressed" Requirements="MercPHTrainBanshee"/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="EngineeringBay" Time="35">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="EngineeringBay" State="Suppressed" Requirements="HaveCommandCenter"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="MissileTurret" Time="25">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="MissileTurret" State="Restricted" Requirements="HaveEngineeringBay"/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="Bunker" Time="40">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Bunker" State="Restricted" Requirements="HaveBarracks"/>
+        </InfoArray>
+        <InfoArray index="Build8" Time="15">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build9" Unit="SensorTower" Time="25">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="SensorTower" State="Restricted" Requirements="HaveEngineeringBay"/>
+        </InfoArray>
+        <InfoArray index="Build10" Unit="GhostAcademy" Time="40">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="GhostAcademy" State="Suppressed" Requirements="HaveBarracks"/>
+        </InfoArray>
+        <InfoArray index="Build11" Unit="Factory" Time="60">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Factory" State="Suppressed" Requirements="HaveBarracks"/>
+        </InfoArray>
+        <InfoArray index="Build12" Unit="Starport" Time="50">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Starport" State="Suppressed" Requirements="HaveFactory"/>
+        </InfoArray>
+        <InfoArray index="Build13" Time="50">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button State="Suppressed" Requirements="HaveBarracks"/>
+        </InfoArray>
+        <InfoArray index="Build14" Unit="Armory" Time="65">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="Armory" State="Suppressed" Requirements="HaveFactory"/>
+        </InfoArray>
+        <InfoArray index="Build15">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button State="Restricted"/>
+        </InfoArray>
+        <InfoArray index="Build16" Unit="FusionCore" Time="65">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+            <Button DefaultButtonFace="FusionCore" State="Suppressed" Requirements="HaveStarport"/>
+        </InfoArray>
+        <InfoArray index="Build17">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build18">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build19">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build20">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build21">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build22">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build23">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build24">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build25">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build26">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build27">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build28">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build29">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <InfoArray index="Build30">
+            <Charge Link="Abil/TerranBuild"/>
+            <Cooldown Link="Abil/TerranBuild"/>
+        </InfoArray>
+        <FidgetDelayMin value="5"/>
+        <FidgetDelayMax value="10"/>
+        <ConstructionMover value="Construction"/>
+    </CAbilBuild>
+    <CAbilTrain id="train1">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="AbilityorEffectType:Structures"/>
+        <Range value="5"/>
+        <InfoArray index="Train1" Time="25">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Marine" State="Restricted"/>
+            <Unit value="Marine"/>
+        </InfoArray>
+        <InfoArray index="Train2" Time="40">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Reaper" State="Restricted" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Reaper"/>
+        </InfoArray>
+        <InfoArray index="Train3" Time="40">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Ghost" State="Restricted" Requirements="HaveAttachedBarrTechLabOrAttachedTechReactorAndShadowOps"/>
+            <Unit value="Ghost"/>
+        </InfoArray>
+        <InfoArray index="Train4" Time="30">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Marauder" State="Restricted" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Marauder"/>
+        </InfoArray>
+        <InfoArray index="Train5" Time="25">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Medic" State="Restricted" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Medic"/>
+        </InfoArray>
+        <InfoArray index="Train6" Time="30">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="FlameMech" State="Restricted" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Firebat"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="50">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+            <Button DefaultButtonFace="Spectre" State="Restricted" Requirements="HaveAttachedBarrTechLabOrAttachedTechReactorAndShadowOps"/>
+            <Unit value="Spectre"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train10">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train11">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train12">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train13">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train14">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train15">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train16">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train17">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train18">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train19">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train20">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train21">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train22">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train23">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train24">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train25">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train26">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train27">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train28">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train29">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+        <InfoArray index="Train30">
+            <Charge Link="Abil/BarracksTrain"/>
+            <Cooldown Link="Abil/BarracksTrain"/>
+        </InfoArray>
+    </CAbilTrain>
+</Catalog>
